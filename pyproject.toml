@@ -9,3 +9,4 @@ requires-python = ">=3.9"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+addopts = "--cov=filter_collections --cov-report=term-missing --cov-fail-under=100"
